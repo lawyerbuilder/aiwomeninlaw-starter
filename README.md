@@ -16,7 +16,7 @@ I'm a lawyer and a complete beginner with computers and coding. I am taking the 
 
 If Claude says it cannot open the link, open SETUP.md in this repository yourself, copy all of its text, paste it into Claude with the message above, and continue.
 
-The written guide is in SETUP.md if you prefer to work through it alone. You can also join the Session 0 setup clinic on the Saturday before session 1, ask in the drop-in call before session 4, or message the course team.
+The written guide is in SETUP.md if you prefer to work through it alone. For plain-English meanings of the terms you will meet, see the glossary at aiwomeninlaw.com/glossary/. You can also join the Session 0 setup clinic on the Saturday before session 1, ask in the drop-in call before session 4, or message the course team.
 
 ## Instructions for Claude
 
