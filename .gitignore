@@ -1,0 +1,5 @@
+.env
+.env.*
+memory/.obsidian/
+.DS_Store
+Thumbs.db
