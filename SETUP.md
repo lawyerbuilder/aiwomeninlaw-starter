@@ -133,19 +133,19 @@ Claude Code also keeps notes of its own, called auto memory, in a folder outside
    - **Mac:** open **Finder**, click **Documents**, then **File > New Folder**, and type `my-first-tool`.
 
    You should see an empty folder called my-first-tool.
-2. Download the starter kit file, **starter.zip**, from [link to starter kit to be confirmed].
-   You should see starter.zip in your Downloads folder.
+2. Download the starter kit from https://github.com/lawyerbuilder/aiwomeninlaw-starter/archive/refs/heads/main.zip (or open github.com/lawyerbuilder/aiwomeninlaw-starter and click **Code**, then **Download ZIP**).
+   You should see a file called aiwomeninlaw-starter-main.zip in your Downloads folder.
 3. Unzip the file.
-   - **Windows:** right-click starter.zip, click **Extract All**, then click **Extract**.
-   - **Mac:** double-click starter.zip.
+   - **Windows:** right-click aiwomeninlaw-starter-main.zip, click **Extract All**, then click **Extract**.
+   - **Mac:** double-click aiwomeninlaw-starter-main.zip.
 
-   You should see a folder called **starter** in your Downloads folder.
-4. Open the starter folder, select **CLAUDE.md** and the **memory** folder, and copy them into my-first-tool.
-   You should see two items in my-first-tool: the file CLAUDE.md and the folder memory.
+   You should see a folder called **aiwomeninlaw-starter-main** in your Downloads folder.
+4. Open that folder, select **CLAUDE.md**, the **memory** folder and the **.claude** folder, and copy them into my-first-tool. (On a Mac, press Command, Shift and full stop together to show the .claude folder, which is hidden by default. On Windows, in File Explorer click **View**, then **Show**, then **Hidden items**.)
+   You should see three items in my-first-tool: the file CLAUDE.md and the folders memory and .claude.
 5. Open the memory folder.
    You should see five files (MEMORY.md, problem.md, redesign.md, sources.md, glossary.md) and two folders (decisions and sessions). Each of the two folders holds one file, README.md, which explains how to write a decision note or a session log.
 
-You can delete the starter folder and starter.zip from your Downloads folder now. Keeping a second copy makes it easy to open the wrong one later.
+You can delete the aiwomeninlaw-starter-main folder and the zip file from your Downloads folder now. Keeping a second copy makes it easy to open the wrong one later.
 
 ### Open the folder in Claude Code
 
@@ -455,7 +455,7 @@ Capture each on both Windows and Mac where the screen differs. Hide email addres
 9. Part 2, step 6: GitHub Settings > Password and authentication.
 10. Part 2, step 7: the QR code screen (QR code blurred).
 11. Part 2, step 9: recovery codes screen with Download (codes blurred).
-12. Part 3, step 3: Windows Extract All dialog for starter.zip.
+12. Part 3, step 3: Windows Extract All dialog for aiwomeninlaw-starter-main.zip.
 13. Part 3, step 4: my-first-tool containing CLAUDE.md and the memory folder (Windows with extensions shown).
 14. Part 3, step 5: the memory folder contents (five files, two folders).
 15. Part 3, steps 7 to 9: Code tab with Local, Select folder and the Manual permission mode visible.
