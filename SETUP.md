@@ -122,6 +122,7 @@ The starter kit has two parts:
 
 - **CLAUDE.md**, your standing instructions. Claude Code reads this file at the start of every session in the folder. Its line `@memory/MEMORY.md` tells Claude Code to load the memory index at the same time. CLAUDE.md also tells Claude to read the notes a task needs, to name the decision note it is relying on, to write down each new decision and where each fact came from, to write a session log at the end of each session, and to say so and ask you when something is missing, instead of guessing. It is built on how Boris Cherny, who created Claude Code, works: agree a plan before building, have Claude check its own work, and add a line to the Lessons section of CLAUDE.md each time Claude gets something wrong.
 - **.claude/commands/end-session.md**, a shortcut. When you stop for the day, type `/end-session` in the prompt box. Claude writes the session log, files any missing decision notes, updates the index and suggests a line for Lessons.
+- **.claude/skills/weekly-grooming/SKILL.md**, a saved procedure for after the course. Once a week, type "groom the backlog" and Claude reviews your GitHub issues against the goals in memory/goals.md, proposes what to hand over next, and waits for your approval before changing anything. Fundamentals Lesson 19 explains how to use it.
 - **The memory folder.** MEMORY.md is the index, with one line per note. The other notes start almost empty, with headings and one-line instructions, and fill up as you work.
 
 Claude Code also keeps notes of its own, called auto memory, in a folder outside your project. The course relies on the memory folder instead, because you can read it in Obsidian, correct it, and save it to GitHub with the rest of the project. CLAUDE.md tells Claude to record project facts in the memory folder.
@@ -143,7 +144,7 @@ Claude Code also keeps notes of its own, called auto memory, in a folder outside
 4. Open that folder, select **CLAUDE.md**, the **memory** folder and the **.claude** folder, and copy them into my-first-tool. (On a Mac, press Command, Shift and full stop together to show the .claude folder, which is hidden by default. On Windows, in File Explorer click **View**, then **Show**, then **Hidden items**.)
    You should see three items in my-first-tool: the file CLAUDE.md and the folders memory and .claude.
 5. Open the memory folder.
-   You should see five files (MEMORY.md, problem.md, redesign.md, sources.md, glossary.md) and two folders (decisions and sessions). Each of the two folders holds one file, README.md, which explains how to write a decision note or a session log.
+   You should see six files (MEMORY.md, problem.md, redesign.md, sources.md, glossary.md, goals.md) and two folders (decisions and sessions). Each of the two folders holds one file, README.md, which explains how to write a decision note or a session log.
 
 You can delete the aiwomeninlaw-starter-main folder and the zip file from your Downloads folder now. Keeping a second copy makes it easy to open the wrong one later.
 
@@ -457,7 +458,7 @@ Capture each on both Windows and Mac where the screen differs. Hide email addres
 11. Part 2, step 9: recovery codes screen with Download (codes blurred).
 12. Part 3, step 3: Windows Extract All dialog for aiwomeninlaw-starter-main.zip.
 13. Part 3, step 4: my-first-tool containing CLAUDE.md and the memory folder (Windows with extensions shown).
-14. Part 3, step 5: the memory folder contents (five files, two folders).
+14. Part 3, step 5: the memory folder contents (six files, two folders).
 15. Part 3, steps 7 to 9: Code tab with Local, Select folder and the Manual permission mode visible.
 16. Part 3, step 10: Claude's reply listing the six notes and answering question 4.
 17. Part 4, step 2: obsidian.md/download with the Windows and Universal (Mac) downloads.

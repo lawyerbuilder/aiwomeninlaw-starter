@@ -2,7 +2,7 @@
 
 - type: guide
 - date: 2026-10-05
-- related: [[problem]], [[redesign]], [[sources]], [[glossary]], [[decisions/README]], [[sessions/README]]
+- related: [[problem]], [[redesign]], [[sources]], [[glossary]], [[goals]], [[decisions/README]], [[sessions/README]]
 
 Claude Code loads this index at the start of every session, because CLAUDE.md imports it. One line per note, in the form `- [[note-name]] - one-line summary`. Add new decisions and sessions at the bottom of their section. Fictional data only.
 
@@ -12,6 +12,7 @@ Claude Code loads this index at the start of every session, because CLAUDE.md im
 - [[redesign]] - How the redesigned process works and what the tool does. Not filled in yet.
 - [[glossary]] - Terms used in this project, with plain meanings.
 - [[sources]] - Where each fact in the memory came from.
+- [[goals]] - Goals for this quarter, read by the weekly-grooming skill. Not filled in yet.
 
 ## Decisions
 
