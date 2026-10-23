@@ -24,6 +24,9 @@ Copy everything inside the box into the new log.
 - Files: request-list.html (new).
 - Notes: [[redesign]] updated; new decision [[decisions/2026-10-17-sort-by-due-date]].
 
+## Where AI did the work
+- Claude Code wrote request-list.html from the brief in [[redesign]]. I checked the sort order and the empty-list message; I did not check the page on a phone yet.
+
 ## Open questions
 - Should overdue requests show in red? Ask the team (fictional).
 
